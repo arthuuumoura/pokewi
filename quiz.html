@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokewiki</title>
+    <link rel="shortcut icon" href="imgs/favicon.png">
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+
+    <header>
+
+          <h1>Quiz</h1>
+          <p id="subtitle">ウィキポケモン</p>
+
+          <nav>
+            <ul>
+              <li><a href="home.html"><p>Home</p></a></li>
+              <li><a href="tiposdepokemon.html"><p>Tipos de Pókemons</p></a></li>
+              <li><a href="tiposdepokebola.html"><p>Tipos de Pokébolas</p></a></li>
+              <li><a href="inicias.html"><p>Pokemons Iniciais</p></a></li>
+              <li><a href="quiz.html"><p>Quiz</p></a></li>
+            </ul>
+          </nav>
+
+    </header>
+
+    <main class="quiz">
+
+    <div id="iniciar">
+      <p class="textinhoquiz">Vamos testar seus conhecimentos sobre pókemons!</p>
+      <p class="textinhoquiz">Dê Go:</p>
+      <button id="iniciobutton" type="button" name="button">Go!</button>
+    </div>
+
+      <div id="aba1" class="escondido" action="index.html" method="post">
+
+        <h2 class="perguntinhas">Qual é a pókebola mais efetiva?</h2>
+        <img src= "" alt="">
+        <input id="p1" type="radio" name="p1" value="Ultra Ball">
+        <label for="p1">Ultra Ball</label>
+        <input id="p1" type="radio" name="p1" value="Dusk Ball">
+        <label for="p1">Dusk Ball</label>
+        <input id="p1" type="radio" name="p1" value="Heavy Ball">
+        <label for="p1">Heavy Ball</label>
+        <input id="p1" type="radio" name="p1" value="Master Ball">
+        <label for="p1">Master Ball</label>
+
+      </div>
+
+      <div id="aba2" class="escondido" action="index.html" method="post">
+
+        <h2 class="perguntinhas">Qual desses Pókemons não é um inicial?</h2>
+        <img src= "" alt="">
+        <input id="p2" type="radio" name="p2" value="Charmander">
+        <label for="p2">Charmander</label>
+        <input id="p2" type="radio" name="p2" value="Bulbasaur">
+        <label for="p2">Bulbasaur</label>
+        <input id="p2" type="radio" name="p2" value="Squirtle">
+        <label for="p2">Squirtle</label>
+        <input id="p2" type="radio" name="p2" value="Pikachu">
+        <label for="p2">Pikachu</label>
+
+      </div>
+
+      <div id="aba3" class="escondido" action="index.html" method="post">
+
+        <h2 class="perguntinhas">Qual é o primeiro pókemon que o Ash captura?</h2>
+        <img src= "" alt="">
+        <input id="p3" type="radio" name="p3" value="Caterpie">
+        <label for="p3">Caterpie</label>
+        <input id="p3" type="radio" name="p3" value="Pidgey">
+        <label for="p3">Pidgey</label>
+        <input id="p3" type="radio" name="p3" value="Charmander">
+        <label for="p3">Charmander</label>
+        <input id="p3" type="radio" name="p3" value="Eevee">
+        <label for="p3">Eevee</label>
+
+      </div>
+
+      <div id="aba4" class="escondido" action="index.html" method="post">
+
+        <h2 class="perguntinhas">Qual desses não é uma eeveevolution?</h2>
+        <img src= "" alt="">
+        <input id="p4" type="radio" name="p4" value="Vaporeon">
+        <label for="p4">Vaporeon</label>
+        <input id="p4" type="radio" name="p4" value="Jolteon">
+        <label for="p4">Jolteon</label>
+        <input id="p4" type="radio" name="p4" value="Glaceon">
+        <label for="p4">Glaceon</label>
+        <input id="p4" type="radio" name="p4" value="Raikou ">
+        <label for="p4">Raikou</label>
+
+      </div>
+
+      <div id="setinhaquiz" class="escondido" class="expandir-btt">
+
+        <h1>></h1>
+
+      </div>
+
+      <h3 id="titulopontuacao" class="escondido">Pontuação:</h3>
+      <p id="pontuacao" class="escondido"></p>
+
+      <button id="reiniciar" class="escondido" type="button" name="button">Reiniciar Quiz</button>
+
+    </main>
+
+    <footer>
+      <a href="creditos.html"><p>Créditos</p></a>
+    </footer>
+
+  </body>
+  <script src="interações2.js"></script>
+
+</html>

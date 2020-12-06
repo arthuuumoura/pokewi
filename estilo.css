@@ -1,0 +1,340 @@
+.bodyft1{ // body do home
+    margin:0px;
+}
+.homemain img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 60%;
+}
+
+body{
+    background-image: url("imgs/imgfundo15.jpg");
+    background-position: repeat center;
+}
+
+header {
+    background-color: #ffffff88;
+    font-size: 180%;
+    padding-top: 4px;
+    padding-left: 0px;
+    font-family: 'Almond Nougat' ;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: midnightblue;
+    padding-left: 34px;
+    font-size: 70px;
+}
+
+#subtitle{
+    text-align:center;
+    color: black;
+}
+
+header ul {
+    padding-left: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(255,255,255, 0.7);
+
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    margin: 0 1em;
+    font-size: 25px;
+  }
+
+.homemain{
+      font-family:  'Lekton', cursive;
+      font-size: 15px;
+      background-color: #f8f8ff;
+      border: solid white 2px;
+      text-align: justify;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 1%;
+      padding-top: 10px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 10px;
+}
+.tiposmain{
+     font-family:  'Lekton', cursive;
+     font-size: 15px;
+     background-color: #f8f8ff;
+     border: solid white 2px;
+     padding: 3%;
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-top: 1%;
+}
+.pokemonsiniciais li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    text-align: right;
+  }
+  .pokemonsiniciais img{
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.imgpokebola{
+    max-width:50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+}
+
+.titulopokebola{
+    font-family: 'Lekton', cursive;
+    font-size: 25px;
+    text-align: center;
+    display: inline;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.textinhopokebola{
+    font-family: 'Lekton', cursive;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.tipos{
+  width: 3%;
+  height: 3%;
+  position: relative;
+  top: 13px;;
+}
+
+.parte1 > div{
+    margin-left: 30%;
+}
+
+.parte2 > div{
+    margin-left: 30%;
+}
+
+.parte3 > div{
+    margin-left: 30%;
+}
+
+a :link{ //???
+    color: black;;
+}
+
+a :hover{
+    color:darkred;
+}
+
+a :active{
+    color:	#DB7093;
+}
+
+a ::selection{
+    background-color: darkred;
+}
+
+.expandir-btt {
+    background-color: rgba(255,255,255, 0.7);
+    border: none;
+    border-radius: 100%;
+    color: white;
+    padding: 0.5% 1.1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    position: absolute;
+    border: solid black 1px;
+}
+.expandir-btt:hover {
+    color: black;
+}
+
+#setinha{
+    padding: 0;
+    margin-top: 0;
+    font-size: 40px;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#descricao {
+    font-size: 25px;
+    margin-left: 0px;
+    text-align: justify;
+    font-family: 'Almond Nougat', cursive;
+}
+
+#nome {
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: 'Almond Nougat', cursive;
+}
+
+#fotinhas > img{
+  weight: 100px;
+  height: 150px;
+  border-radius: 100%;
+  border: solid 2px black;
+  margin-left: 35%;
+  margin-right: 20%;
+}
+
+#passar img{
+    float: right;
+    width: 32px;
+    cursor: pointer;
+}
+
+#maincreditos > h1{
+    display: block;
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 0.6%;
+    font-family: 'Almond Nougat', cursive;
+    font-size: 50px;
+    width: 25%;
+}
+
+#maincreditos{
+  display: inline-block;
+  background-color: rgba(255,255,255, 0.7);
+  margin-top: 5%;
+  padding: 0.6%;
+  font-family: 'Almond Nougat', cursive;
+  border: solid black 2px;
+  width: 25%;
+  margin-left: 5%;
+}
+
+@keyframes pular {
+  from,
+  20%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(0, 0.3, 0.3);
+  }
+
+  20% {
+    transform: scale3d(1, 1.1, 1.1);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+ h1 {
+    animation-name: pular;
+    animation-duration: 3.5s;
+}
+
+input{
+    display: block;
+}0
+
+.perguntinhas{
+    font-size: 35px;
+    font-family:  'Almond Nougat', cursive;
+}
+
+#setinhaquiz{
+    cursor: pointer;
+    padding: 0;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.escondido{
+    display: none;
+}
+
+.bom{
+    color: goldenrod;
+}
+
+.medio{
+    color: green;
+}
+
+.ruim{
+    color: darkred;
+}
+
+footer {
+  background-color: lightgray;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  padding: 7px;
+  text-align: right;
+  font-size: 18px;
+  font-family: 'Almond Nougat', cursive;
+}
+
+.Referencias{
+  background-color: rgba(255,255,255, 0.7);
+  font-family: 'Almond Nougat', cursive;
+  border: solid black 2px;
+  padding-right: 0;
+  margin-left: 30%;
+  display: inline-block;
+}
+
+.quiz{
+  font-family:  'Lekton', cursive;
+  font-size: 15px;
+  background-color: #f8f8ff;
+  border: solid white 2px;
+  padding: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  text-align: center;
+}
+
+#titulopontuacao{
+  font-family: 'Almond Nougat', cursive;
+  font-size: 35px;
+}
+
+#pontuacao{
+  font-family:'Lekton', cursive;
+  font-size: 20px;
+}
+
+#iniciobutton{
+    background-color: lightblue;
+}
+
+#reiniciar{
+  background-color: lightblue;
+}
+
+.textinhoquiz{
+  font-size: 30px;
+  font-family: 'Almond Nougat', cursive;
+}
